@@ -19,6 +19,18 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: '.NET Analysis Tool',
+        description:
+          'Built a REST endpoint that could be sent C# or VB code and would use Roslyn to evaluate the code for common mistakes. This endpoint also interfaced with the .NET Portability Analyzer to check for compatibility with .NET Core. Results would be sent back to a client using Microsoft\'s web-based Monaco editor to provide inline feedback on failed checks and incompatible libraries.',
+        link: ''
+      },
+      {
+        name: 'Vacation Day Calculator',
+        description:
+          'Used .NET to build a UWP app that would connect to the company\'s internal database, look up all of the user\'s vacation requests, and then calculate and display that user\'s remaining vacation days.',
+        link: ''
+      },
+      {
         name: 'Alternate Method Editor',
         description:
           'Integrated Microsoft\'s web-based Monaco editor into Aras Innovator. Added ability to use the Monaco editor\'s diff mode to compare the current method code to an older version.',
@@ -52,7 +64,7 @@ module.exports = {
       },
       {
         name: 'Databases',
-        description: 'Microsoft SQL Server',
+        description: 'Microsoft SQL Server, MongoDB',
       },
       {
         name: 'Other',
