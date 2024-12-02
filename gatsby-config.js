@@ -25,12 +25,6 @@ module.exports = {
         link: ''
       },
       {
-        name: 'Vacation Day Calculator',
-        description:
-          'Used .NET to build a UWP app that would connect to the company\'s internal database, look up all of the user\'s vacation requests, and then calculate and display that user\'s remaining vacation days.',
-        link: ''
-      },
-      {
         name: 'Alternate Method Editor',
         description:
           'Integrated Microsoft\'s web-based Monaco editor into Aras Innovator. Added ability to use the Monaco editor\'s diff mode to compare the current method code to an older version.',
@@ -40,8 +34,12 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'Toast',
+        description: 'Software Engineer II, December 2021 - Present'
+      },
+      {
         name: 'Aras Corp',
-        description: 'Senior Software Engineer (Aras Labs), December 2020 - Present',
+        description: 'Senior Software Engineer (Aras Labs), December 2020 - December 2021',
         link: 'https://github.com/ArasLabs',
       },
       {
@@ -60,7 +58,7 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'C#, .NET, JavaScript (ES6+), HTML5/CSS, Vue.JS, C++, C, Java',
+          'C#, .NET, JavaScript (ES6+), Java/Kotlin, HTML5/CSS, Vue.JS, C++, C',
       },
       {
         name: 'Databases',
@@ -69,7 +67,7 @@ module.exports = {
       {
         name: 'Other',
         description:
-          'Git/GitKraken, IIS, Visual Studio, Aras Innovator, Unity, Unreal Engine 4',
+          'AWS, Git/GitKraken, IIS, Visual Studio, Aras Innovator, Unity, Unreal Engine 4',
       },
     ],
   },
